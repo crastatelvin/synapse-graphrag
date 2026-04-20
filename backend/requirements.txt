@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+groq
+python-dotenv
+pymupdf
+spacy
+chromadb
+python-multipart
+httpx
+websockets
+pydantic

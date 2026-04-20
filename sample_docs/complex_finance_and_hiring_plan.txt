@@ -1,0 +1,20 @@
+Finance + Hiring Plan — FY 2027
+
+Revenue target is $96M with EBITDA margin target of 14%. Finance proposes shifting budget from low-conversion events into implementation engineering and partner enablement. CAC payback currently averages 17 months; target is 12 months by Q4.
+
+Hiring plan:
+- 6 solutions architects in New York and Berlin.
+- 4 reliability engineers in Bangalore.
+- 3 compliance specialists focused on EU AI Act and HIPAA controls.
+- 2 ML platform engineers for model serving optimization.
+
+The COO argues that hiring should be tied to customer onboarding bottlenecks: implementation time, integration defects, and first-value delays. Customer Success reports churn risk increases sharply when time-to-value exceeds 45 days.
+
+Procurement requests approval for multi-cloud failover contract with Azure and Google Cloud to reduce concentration risk. Security team recommends additional investment in threat detection and privileged access controls after observing ransomware campaigns targeting operational technology vendors.
+
+Board metric proposal:
+- Time-to-value
+- Net Revenue Retention
+- Incident-free days
+- Compliance audit findings closed per quarter
+- Model inference cost per routed order

@@ -1,0 +1,14 @@
+Board Strategy Memo — Q3 2026
+
+Northstar Robotics plans to expand from industrial automation into healthcare logistics. The CEO, Maya Reddy, proposes a dual-track strategy: increase enterprise ARR by 35% while reducing gross margin volatility caused by semiconductor lead times.
+
+The CFO, Adrian Clarke, reports that the Atlas product line generates 52% of revenue but depends on two suppliers in Taiwan. Procurement has negotiated a secondary agreement with NeoFab Systems, though qualification is still pending. Operations lead Elena Ortiz warns that a single disruption could delay customer deployments in Germany and Canada.
+
+The growth team sees rising demand from hospital networks in Chicago, Austin, and London. Sales VP Jordan Lee notes that pilots convert faster when customers use existing Epic and SAP integrations. Product management recommends prioritizing API reliability and integration templates over new dashboard features.
+
+Risk committee flags three issues:
+1) EU AI Act compliance for autonomous routing recommendations.
+2) Cyber insurance premium increase after two industry ransomware incidents.
+3) Escalating cloud inference cost for route optimization models.
+
+The board asks leadership to align GTM, compliance, and platform workstreams into one operating plan with clear owners and monthly KPIs.

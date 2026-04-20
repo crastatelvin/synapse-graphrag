@@ -1,0 +1,14 @@
+Market Intelligence Brief — Global Automation 2027
+
+Analysts at Meridian Research estimate the healthcare logistics automation market will reach $74B by 2029, with strongest growth in North America and the DACH region. Competitors include Helix Motion, Quantive Systems, and Axiom Fleet AI.
+
+Helix Motion recently partnered with Google Cloud and announced a real-time orchestration layer powered by vector retrieval and graph reasoning. Quantive Systems acquired MedPath Workflow to gain hospital procurement channels in the UK and France.
+
+Customer interviews show buying committees now require:
+- Demonstrable compliance posture (SOC 2 Type II, ISO 27001, AI governance policy).
+- Clear ROI benchmark in first 6 months.
+- Integration proof with ERP and EHR systems.
+
+Price pressure is increasing. Mid-market buyers compare total cost against manual dispatch teams and often delay procurement if integration timelines exceed 10 weeks. Enterprise buyers accept higher pricing when vendors provide implementation SLAs and performance penalties.
+
+Macro risks: continued GPU supply constraints, stricter data localization laws in the EU, and shifting reimbursement models in US healthcare systems.

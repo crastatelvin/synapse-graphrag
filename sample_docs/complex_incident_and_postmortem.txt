@@ -1,0 +1,25 @@
+Incident Postmortem — Route Engine Degradation
+
+Date: 2026-09-14
+Severity: SEV-1
+Duration: 2h 17m
+
+Summary:
+Northstar Robotics experienced severe latency in route generation APIs across three regions. Average response time rose from 420ms to 6.8s, causing dispatch delays at eight hospital clients. The incident affected Atlas Orchestrator and dependent services in SAP order sync.
+
+Root cause:
+An unbounded retry policy in the feature store client amplified traffic during partial packet loss in the Frankfurt zone. Autoscaling expanded inference workers, which increased tokenized graph traversal load on the vector layer and exhausted connection pools.
+
+Contributing factors:
+- Missing circuit breaker between inference orchestrator and vector service.
+- Alert thresholds tuned for throughput, not tail latency.
+- On-call runbook lacked rollback step for retry policy.
+
+Business impact:
+Three customers triggered contractual SLA review clauses. One prospect in Toronto delayed a $1.2M expansion decision pending reliability evidence. Finance estimates direct incident cost at $186k from credits and overtime.
+
+Corrective actions:
+- Add retry budget and circuit breaker by Platform Team (owner: Priya Menon).
+- Introduce p95 and p99 latency SLO dashboards (owner: SRE Team).
+- Create regional failover simulation in staging every sprint (owner: QA Automation).
+- Publish customer-facing reliability brief and monthly incident metrics (owner: Customer Success).
