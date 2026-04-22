@@ -241,10 +241,10 @@ REACT_APP_WS_URL=ws://localhost:8000/ws
 
 <div align="center">
 
-Built with ❤️ for GraphRAG-first document intelligence.
-
-</div>
-
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](./LICENSE).
+
+Built with ❤️ for GraphRAG-first document intelligence.
+
+</div>
